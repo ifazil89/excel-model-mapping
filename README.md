@@ -6,12 +6,8 @@
  ## Sample Code Snippet:
 Below code snippet will get the list of Models from the Excel
 
-     String filePath = "C:\\TEST_1.xlsx";
-     
+     String filePath = "C:\\TEST_1.xlsx";      
      List<Mobile> modelList =  new ExcelModelMappingService().getModels(Mobile.class, filePath);	
-     
-     for(Mobile model : modelList){
-     
-     System.out.println(model);	
-     
-     }
+     for(Mobile model : modelList){     
+          System.out.println(model);	
+     } 
